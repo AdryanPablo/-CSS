@@ -1,0 +1,14 @@
+#d1{
+    /* Dimensões da div */
+    width: 300px;
+    height: 200px;
+    background-color: #ccc;
+
+    /* Bordas */
+
+    border-style: solid;        /* Outras opções: solid, dotted, dashed, double */
+    border-color: #333;
+    border-width: 10px; 
+
+    border-radius: 10px;
+}

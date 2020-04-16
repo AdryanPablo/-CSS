@@ -1,0 +1,67 @@
+*{
+    font-family: Chilanka;
+}
+
+header{
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+header h1{
+    font-size: 30pt;
+    font-weight: normal;
+}
+
+nav#menu{
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: #c33;
+    justify-content: flex-end;
+}
+nav#menu a{
+    flex-shrink: 0;
+    width: 100px;
+    height: 40px;
+
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+nav#menu a:hover{
+    background-color: #33c;
+    cursor: pointer;
+}
+
+section#conteúdo{
+    display: flex;
+    flex-wrap: wrap;
+
+    height: auto;
+    margin-top: 10px;
+    border: solid 2px #333;
+    border-radius: 5px;
+
+    justify-content: center;
+}
+section#conteúdo div{
+    flex-shrink: 0;
+
+    width: 180px;
+    height: 150px;
+    margin: 10px;
+    border: solid 1px #888;
+    border-radius: 5px;
+
+    text-align: center;
+    line-height: 150px;
+}
+section#conteúdo div:hover{
+    background-color: #c33;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+}

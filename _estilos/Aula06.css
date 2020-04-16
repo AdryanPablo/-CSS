@@ -1,0 +1,14 @@
+body{
+    background-image: url(../_imagens/Aula06.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+p{
+    font-family: Times;
+    color: #333333;
+    font-size: 40pt;
+    text-align: justify;
+    text-indent: 50px;
+    padding: 100px 10px 0px 150px;
+}

@@ -1,0 +1,16 @@
+body{
+    background-image: url(../_imagens/Aula04a.png), url(../_imagens/Aula04b.png);
+    background-size: 400px 220px, 85px 120px;
+    background-repeat: no-repeat;
+    background-position: 10px 140px, 290px 145px;
+}
+
+p{
+    font-size: 30pt;
+    padding-left: 48px;
+    
+    background-color: rgba(200, 200, 200, 0.4);
+    background-image: url(../_imagens/Aula04c.png);
+    background-size: 47px;
+    background-repeat: no-repeat;   
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS - Aula 46</title>
+    <style>
+
+        body{
+            background-color: #000;
+        }
+
+        img{
+            width: 200px;
+            display: inline-block;
+            margin: 10px;
+
+            transition: width 0.5s, filter 0.5s;
+        }
+        img:hover{
+            width: 220px;
+            filter: drop-shadow(0px 0px 20px #3cc);
+        }
+
+        #img1{
+            filter: hue-rotate(180deg);
+        }
+
+        #img2{
+            filter: invert(100%);
+        }
+
+        #img3{
+            filter: opacity(50%) ;
+        }
+        #img3:hover{
+            filter: opacity(100%);
+        }
+
+        #img4{
+            filter: saturate(200%);
+        }
+
+        #img5{
+            filter: sepia(100%)
+        }
+    
+    </style>
+</head>
+<body>
+    <img id = 'img1' src = './_imagens/Lago.jpeg'>
+    <img id = 'img2' src = './_imagens/Lago.jpeg'>
+    <img id = 'img3' src = './_imagens/Lago.jpeg'>
+    <img id = 'img4' src = './_imagens/Lago.jpeg'>
+    <img id = 'img5' src = './_imagens/Lago.jpeg'>    
+</body>
+</html>

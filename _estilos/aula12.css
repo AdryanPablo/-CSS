@@ -1,0 +1,28 @@
+div{
+    width: 100px;
+    height: 100px;
+    border: #333;
+    border-radius: 10px;
+}
+
+#div01{
+    position: absolute;
+    top: 0px;
+    
+    background-color: rgba(169, 169, 169, 0.5);
+}
+#div02{
+    position: absolute;
+    top: 0px;
+
+    background-color: rgba(169, 169, 169, 0.5);
+}
+#div03{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 108px;
+
+    background-color: rgba(169, 169, 169, 0.75);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS - Aula 35</title>
+    <style>
+
+        body{
+            margin: 10px;
+            font-family: Chilanka;
+        }
+
+        h1{
+            font-weight: normal;
+        }
+
+        div{
+            width: 250px;
+            height: 400px;
+
+            display: inline-block;
+            margin: 5px;
+
+            border: solid 2px #333;
+            border-radius: 5px;
+        }
+
+        div#div01{            
+            overflow: hidden;
+        }
+
+        div#div02{
+            overflow: auto;
+        }
+
+        p{
+            margin: 5px;
+
+            font: 12pt Chilanka;
+            text-align: justify;
+            text-indent: 25px;
+        }
+    
+    </style>
+</head>
+<body>
+    <h1>Testes de Overflow</h1>
+
+    <div id = 'div01'>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempor hendrerit nunc. Nam non nunc et arcu feugiat sagittis mattis at risus. Suspendisse nec pulvinar purus. In vulputate risus et augue pharetra, sit amet dapibus nulla suscipit. Phasellus varius tortor id ante fringilla hendrerit. Suspendisse iaculis egestas turpis ornare lobortis. Fusce non dapibus metus, non venenatis massa. Duis id cursus sem. In semper porttitor ex, sed mollis dolor laoreet ut. Nam fringilla elit eget diam iaculis, eget euismod nisl egestas. Duis dictum varius accumsan. Cras diam mi, egestas at euismod in, dictum quis urna. Aliquam iaculis luctus ornare. Cras vitae eros fringilla, vestibulum nunc eu, bibendum dolor.</p>
+    </div>
+    <div id = 'div02'>
+        <p>Mauris blandit sem ut fermentum mollis. In rhoncus commodo quam, at pretium elit interdum quis. Fusce mattis faucibus mattis. Quisque fringilla lacus augue, nec aliquam libero sollicitudin interdum. Maecenas id ligula varius, condimentum odio eu, congue nunc. Curabitur sit amet urna sed dolor placerat iaculis. Duis imperdiet, est cursus sodales cursus, ex nulla pulvinar nisi, ut dignissim lectus turpis id mauris. Praesent placerat viverra nunc, ac maximus elit aliquet sit amet. Suspendisse nec venenatis diam. Aenean vehicula gravida lectus ullamcorper posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras sagittis et metus eu ullamcorper. Ut eu metus sollicitudin, commodo elit id, pulvinar ex. Nam velit tellus, elementum posuere erat a, sagittis imperdiet mi. Quisque non tortor a justo placerat laoreet.</p>
+    </div>
+</body>
+</html>

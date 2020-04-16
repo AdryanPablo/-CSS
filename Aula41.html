@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS - Aula 41</title>
+    <style>
+
+        @keyframes rodarNaTela {
+            0% {
+                left: 0px;
+                top: 0px
+            }
+            25% {
+                left: 1150px;
+                top: 0px;
+            }
+            50% {
+                left: 1150px;
+                top: 400px;
+            }
+            75% {
+                left: 0px;
+                top: 400px;
+            }
+            100% {
+                left: 0px;
+                top: 0px;
+            }
+        }
+
+        div{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            background: linear-gradient(45deg, #c33, #ee1);
+            animation-name: rodarNaTela;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        div:active{
+            animation-play-state: paused;
+        }
+    
+    </style>
+</head>
+<body>
+    <div></div>    
+</body>
+</html>

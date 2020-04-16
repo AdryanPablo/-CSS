@@ -1,0 +1,22 @@
+body{
+    margin: 0px;
+}
+
+p#p01{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #333;
+    border-radius: 5px;
+
+    margin: auto;                   /* Centraliza o elemento */
+    text-align: center;             /* Centraliza o texto */
+}
+
+p#p02{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #333;
+    border-radius: 5px;
+
+    margin: 10px;
+}

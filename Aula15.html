@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS - Aula 15</title>
+
+    <style>
+
+        body{
+            margin: 0px;
+
+            background: linear-gradient(to left, #333, #888, #ccc);
+        }
+
+        #div01{
+            width: 200px;
+            height: 200px;
+
+            margin: auto;
+
+            background: linear-gradient(135deg, #c33, #33c);
+        }
+
+        #div02{
+            width: 400px;
+            height: 200px;
+
+            margin: auto;
+
+            background: radial-gradient(circle,rgba(50, 0, 50, 1), rgba(50, 0, 0, 0));            
+        }
+
+        #div03{
+            width: 400px;
+            height: 200px;
+
+            margin: auto;
+            top: 200px;
+
+            background: linear-gradient(270deg, #33c, #3c3);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+
+            font-family: Chilanka;
+            font-size: 20pt;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id = 'div01'></div><br>
+    <div id = 'div02'>
+        <div id = 'div03'>Curso de CSS</div>
+    </div>    
+</body>
+</html>

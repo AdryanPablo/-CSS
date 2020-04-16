@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS - Aula 23++</title>
+    <style>
+
+        table{
+            width: 600px;
+            height: 400px;
+            border: solid 5px rgb(100, 0, 50);
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        tr, th, td{
+            border: solid 1px #888;
+
+            font-family: Chilanka;
+            text-align: center;
+        }
+
+        th{
+            background-color: rgba(200, 50, 50, 0.9);
+
+            font-size: 20pt;
+            color: #fff;
+        }
+
+        td{
+            font-size: 16pt;
+        }
+
+        tr:nth-child(even){
+            background-color: rgba(50, 50, 200, 0.7);            
+        }
+
+        tr:nth-child(odd){
+            background-color: rgba(50, 50, 200, 0.4);
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr><th>Nome</th><th>Nota</th></tr>
+        <tr><td>Adryan</td><td>10</td></tr>
+        <tr><td>Gabriel</td><td>10</td></tr>
+        <tr><td>Elizete</td><td>10</td></tr>
+        <tr><td>Goubiah</td><td>10</td></tr>          
+    </table>    
+</body>
+</html>

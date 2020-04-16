@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS - Aula 49</title>
+    <style>
+
+        *{
+            font-family: Chilanka;
+        }
+
+        nav{
+            width: 200px;
+            float: left;
+        }
+        nav ul{
+            margin: 0px;
+            padding: 0px;
+        }
+        nav li{
+            height: 20px;   
+            
+            margin: 4px;
+            padding: 2px;
+
+            background-color: #c33;
+            border: solid 1px #ccc;
+            border-radius: 5px;
+
+            list-style-type: none;
+
+            color: #fff;
+            text-align: center;
+        }
+
+        article{
+            margin-left: 220px;
+            padding: 10px;
+
+            background-color: #ccc;
+            border-radius: 10px;
+        }
+
+        h1{
+            font-size: 20pt;
+            text-align: center;
+        }
+        h2{
+            font-size: 20pt;
+            text-align: left;
+        }
+
+        p{
+            text-align: justify;
+            text-indent: 25px;
+            font-size: 14pt;
+        }
+
+        article li{
+            font-size: 14pt;
+        }
+
+        @media screen and (orientation: portrait) and (min-width: 0px) and (max-width: 800px) {
+            nav{
+                width: 95%;
+
+                position: absolute;
+                top: 0px;
+
+                margin-right: 10px;
+                margin-bottom: 20px;
+            }
+
+            article{
+                margin-top: 100px;
+                margin-left: 4px;
+            }
+        }
+
+        @media screen and (orientation: landscape) and (min-width: 0px) and (max-width: 800px) {
+            nav{
+                width: 98%;
+                height: 20px;
+
+                position: absolute;
+                top: 10px;
+
+                margin-bottom: 20px;
+            }            
+            nav ul{
+                display: flex;
+                justify-content: center;
+            }
+            nav li{
+                width: 100%;
+                height: 100%;
+                line-height: 20px;
+            }
+
+            article{
+                margin-top: 60px;
+                margin-left: 4px;
+            }
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <nav>
+            <ul>
+                <li>Menu 1</li>
+                <li>Menu 2</li>
+                <li>Menu 3</li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>CFB Cursos</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quis sem turpis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent justo est, feugiat quis laoreet dictum, ullamcorper a ex. Donec egestas, quam vel scelerisque consequat, nibh nibh congue augue, a consectetur nunc tellus ullamcorper augue. Nullam sed arcu mollis, hendrerit tellus non, pharetra urna. Duis sed neque risus. Etiam lacinia odio orci, eu volutpat sapien lacinia a. Sed in finibus diam, eget dignissim lectus.
+            </p>
+            <h2>Top 5 Linguagens de Programação</h2>
+            <ul>
+                <li>Javascript</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C#</li>
+                <li>PHP</li>
+            </ul>
+            <h2>Top 6 Idiomas Mais Falados no Mundo</h2>
+            <ul>
+                <li>Chinês</li>
+                <li>Espanhol</li>
+                <li>Inglês</li>
+                <li>Hindi</li>
+                <li>Árabe</li>
+                <li>Português</li>
+            </ul>
+        </article>
+        
+    </section>
+    
+</body>
+</html>
