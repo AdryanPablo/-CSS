@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de Design Responsivo</title>
+    <meta name="description" content="Curso de Design Responsivo no Canal Node Studio Treinamentos">
+    <meta name="keywords" content="Curso de Design Responsivo">
+    <meta name="author" content="Ádryan Pablo">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="imagens/icon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <a href="index.html"><h1 class="logo">Curso de Design Responsivo</h1></a>
+
+        <button class="botao-menu"><i class="fas fa-bars"></i></button>
+        <nav class="menu">
+
+            <a class="botao-fechar"><i class="fas fa-times"></i></a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Quem Somos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script>
+
+        $(".botao-menu").click(function () {
+
+            $(".menu").fadeIn();      
+            $(".menu").show();
+            $(".botao-menu").fadeOut();            
+
+        });
+
+        $(".botao-fechar").click(function(){
+
+            $(".menu").fadeOut();
+            $(".menu").hide();
+            $(".botao-menu").fadeIn();
+        
+        });
+        
+    </script>
+
+    <div class="banner">
+
+        <div class="titulos">
+
+            <h2>Ouse Inovar!</h2>
+            <h3>Criamos experiências e estabelecemos ações estratégicas que conectam marcas e consumidores.</h3>
+
+        </div>
+
+        <div class="botoes">
+
+            <button class="botao-cadastrar">Cadastrar <i class="fas fa-arrow-circle-right"></i></button>
+            <button class="botao-sobre">Sobre <i class="fas fa-question-circle"></i></button>
+
+        </div>
+
+    </div>
+
+    <main class="servicos">
+
+        <article class="servico">
+
+            <a href="#"><img src="./imagens/criacoes.jpg" alt="Campanhas Publicitárias"></a>
+
+            <div class="inner">
+
+                <a href="#">Campanhas Publicitárias</a>
+                <h4>Impressos, VTs e Jingles</h4>
+                <p>Se você está precisando de criação de algum material em específico, conte com a nossa equipe de profissionais. Eles farão toda campanha publicitária VT, outdoor, floder, anúncio e muito mais pela sua empresa no mais alto padrão de qualidade.</p>
+            </div>
+
+        </article>
+
+        <article class="servico">
+
+            <a href="#"><img src="./imagens/md.jpg" alt="Marketing Digital"></a>
+
+            <div class="inner">
+
+                <a href="#">Marketing Digital</a>
+                <h4>Administração de Redes Sociais</h4>
+                <p>Como agência de publicidade aplicamos estratégias nos meios digitais para que o seu negócio seja visto por milhões de usuários. O Brasil é o 5º país mais conectado do mundo. Por esse motivo o seu negócio não pode ficar de fora do mercado digital.</p>
+            </div>
+
+        </article>
+
+        <article class="servico">
+
+            <a href="#"><img src="./imagens/cs.jpg" alt="Criação de Sites"></a>
+
+            <div class="inner">
+
+                <a href="#">Criação de Sites</a>
+                <h4>Sites Administráveis</h4>
+                <p>Agora você pode administrar seu site quando e como quiser. E melhor ainda, você pode pagar por esse serviço, pois desenvolvemos de forma que seu site esteja sempre atualizado com seus últimos produtos, integração com redes sociais, agora é possível!</p>
+
+            </div>
+
+        </article>
+
+    </main>
+
+    <section class="newsletter">
+
+        <h2>Inscreva-se agora!</h2>
+        <h3>Receba novidades, dicas e muito mais!</h3>
+        <form>
+
+            <input type="email" name="email" placeholder="Seu email">
+            <button>Cadastrar</button>
+
+        </form>
+    </section>
+
+    <footer class="rodape">
+
+        <div class="social-icons">
+
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-google"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+
+        </div>
+
+        <p class="copyright">
+            Copyright &copy; NodeProp 2016. Todos os direitos reservados.
+        </p>
+
+    </footer>
+    
+</body>
+</html>
